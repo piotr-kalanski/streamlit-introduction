@@ -18,3 +18,6 @@ st.json(vars)
 
 st.header('More inputs')
 st.write('https://docs.streamlit.io/develop/api-reference/widgets')
+
+from utils import display_source_code
+display_source_code()
